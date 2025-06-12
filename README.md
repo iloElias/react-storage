@@ -1,13 +1,13 @@
-# 🧠 use-storage-hooks
+# 🧠 ilias-use-storage
 
 A small and extensible React hook library to persist state to **localStorage** or **sessionStorage**, with support for SSR-safe environments.
 
 ## 📦 Installation
 
 ```bash
-npm install use-storage-hooks
+npm install ilias-use-storage
 # or
-yarn add use-storage-hooks
+yarn add ilias-use-storage
 ```
 
 ## 🚀 Usage
@@ -15,7 +15,7 @@ yarn add use-storage-hooks
 Import and use the hooks directly in your React components:
 
 ```tsx
-import { useLocalStorage, useSessionStorage } from "use-storage-hooks";
+import { useLocalStorage, useSessionStorage } from "ilias-use-storage";
 
 function Example() {
   const [name, setName, clearName] = useLocalStorage("username", "Guest");
